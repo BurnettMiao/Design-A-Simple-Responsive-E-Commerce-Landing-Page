@@ -3,7 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design | Nike</title>
   </head>
-  <body></body>
+  <body>
+    <header class="section__container header__container">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+          </div>
+
+          <form action="/">
+            <input type="text" placeholder="Search" />
+            <button type="submit"><i class="ri-search-line"></i></button>
+          </form>
+        </div>
+
+        <div class="nav__btn">
+          <span><i class="ri-shopping-bag-line"></i></span>
+        </div>
+      </nav>
+
+      <div class="header__content">
+        <h1>Expl<span>o</span>re New Things</h1>
+        <p class="section__description">
+          Welcome to our Nike shoe website, your ultimate destination for the
+          latest and greatest in athletic footwear. Explore a wide range of Nike
+          shoes designed to elevate your performance and style.
+        </p>
+        <button class="btn">
+          <span><i class="ri-add-line"></i></span> Explore More
+        </button>
+      </div>
+
+      <div class="header__image">
+        <div class="header__socials">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-pinterest-line"></i></a>
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="trending__container">
+      <div class="section__container trending__header">
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+
+        <h2 class="section__header">Trending <span>Collection</span></h2>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper trending__swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide trending__swiper-slide">
+            <div class="trending__card">
+              <img src="images/trending-1.jpg" alt="trending" />
+              <div class="trending__card__content">
+                <div class="trending__btns">
+                  <button><i class="ri-heart-3-fill"></i></button>
+                  <button><i class="ri-shopping-bag-fill"></i></button>
+                </div>
+                <div class="trending__card__details">
+                  <h4>Nike Air Force 1 '07</h4>
+                  <p>Style: CW2288-111</p>
+                  <h3>7495.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide trending__swiper-slide">
+            <div class="trending__card">
+              <img src="images/trending-2.jpg" alt="trending" />
+              <div class="trending__card__content">
+                <div class="trending__btns">
+                  <button><i class="ri-heart-3-fill"></i></button>
+                  <button><i class="ri-shopping-bag-fill"></i></button>
+                </div>
+                <div class="trending__card__details">
+                  <h4>Nike Zoom Vomero 5</h4>
+                  <p>Style: FB9149-400</p>
+                  <h3>14995.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide trending__swiper-slide">
+            <div class="trending__card">
+              <img src="images/trending-3.jpg" alt="trending" />
+              <div class="trending__card__content">
+                <div class="trending__btns">
+                  <button><i class="ri-heart-3-fill"></i></button>
+                  <button><i class="ri-shopping-bag-fill"></i></button>
+                </div>
+                <div class="trending__card__details">
+                  <h4>Nike Vomero 5</h4>
+                  <p>Style: BV1358-002</p>
+                  <h3>14995.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide trending__swiper-slide">
+            <div class="trending__card">
+              <img src="images/trending-4.jpg" alt="trending" />
+              <div class="trending__card__content">
+                <div class="trending__btns">
+                  <button><i class="ri-heart-3-fill"></i></button>
+                  <button><i class="ri-shopping-bag-fill"></i></button>
+                </div>
+                <div class="trending__card__details">
+                  <h4>Nike Air Max 90</h4>
+                  <p>Style: FB9657-002</p>
+                  <h3>11895.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide trending__swiper-slide">
+            <div class="trending__card">
+              <img src="images/trending-5.jpg" alt="trending" />
+              <div class="trending__card__content">
+                <div class="trending__btns">
+                  <button><i class="ri-heart-3-fill"></i></button>
+                  <button><i class="ri-shopping-bag-fill"></i></button>
+                </div>
+                <div class="trending__card__details">
+                  <h4>Nike Air Max 97</h4>
+                  <p>Style: DC2190-001</p>
+                  <h3>16995.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide trending__swiper-slide">
+            <div class="trending__card">
+              <img src="images/trending-6.jpg" alt="trending" />
+              <div class="trending__card__content">
+                <div class="trending__btns">
+                  <button><i class="ri-heart-3-fill"></i></button>
+                  <button><i class="ri-shopping-bag-fill"></i></button>
+                </div>
+                <div class="trending__card__details">
+                  <h4>Nike Air Max 1</h4>
+                  <p>Style: FQ8048-133</p>
+                  <h3>12795.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
